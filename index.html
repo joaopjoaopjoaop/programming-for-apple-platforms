@@ -3,30 +3,147 @@
 <head>
     <title>Title</title>
     <link rel="shortcut icon" type="image/png" href="/images/head/favicon.svg">
-    <meta name="description" content="Trabalho de Algoritmos e Programação sobre Desenvolvimento para Plataformas da Apple.">
+    <meta name="description" content="Trabalho para a disciplina Algoritmos e Programação sobre Desenvolvimento para Plataformas da Apple.">
     <link rel="stylesheet" href="/styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="theme-color" content="#FFFFFF">
+    <meta name="theme-color" content="#222222">
 </head>
 <body>
-
     <!-- S Header -->
     <nav id="main-nav">
         <div class="logo" id="logo">
             <a href="#">
-                <img src="/images/body/header/logo.svg">
+                <img src="/images/body/logo.png" alt="">
             </a>
         </div>
         <ul>
-            <li><a href="#">Início</a></li>
+            <li><a href="#História">História</a></li>
             <li><a href="#">Introdução</a></li>
             <li><a href="#">Onde Aprender</a></li>
         </ul>
     </nav>
     <!-- E Header -->
+    <!-- S First -->
+    <section id="home">
+        <ul style="text-align: center;">
+            <li style="display: inline-block;">
+                <ul class="centered">
+                    <li class="title">
+                        Swift
+                    </li>
+                    <li class="subtitle">
+                        Swift uma linguagem de programação multi-paradigma (permite programação orientada a objetos,
+                        funcional e procedural), criada pela Apple, e utilizada principalmente para desenvolver
+                        aplicativos nativos para plataformas Apple.
+                    </li>
+                    <li style="display: inline-block;">
+                <img class="centered" src="/images/body/swift-hero.svg" alt="">
+            </li>
+                </ul>
 
-    <script src="/js/main.js"></script>
+            </li>
+        </ul>
+    </section>
+    <!-- E First -->
+    <!-- S Second -->
+    <section id="História">
+        <ul style="text-align: center;">
+            <li style="display: inline-block;">
+                <ul class="centered">
+                    <li class="title">
+                        História
+                    </li>
+                    <li class="subtitle">
+                        Foi apresentada em 2014 como um sucessor para Objective-C, porém mais segura, rápida e expressiva, hoje
+                        em dia Swift pode ser usado para desenvolver programas para Windows, Linux e cloud services
+                        (além das plataformas da Apple - iOS, iPadOS, macOS, watchOS e tvOS).<br>
+                        Assim como Kotlin e Rust, Swift é compilado para machine code usando LLVM toolchain, porém
+                        também permite execução por meio de Read-Eval-Print-Loop para escrever e testar código em tempo
+                        real, sem a necessidade de recompilar.
+                    </li>
+                    <li style="display: inline-block;">
+                <img class="centered" style="height:400px" src="/images/body/playgrounds.svg" alt="">
+            </li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+    <!-- E Second -->
+    <!-- S Third -->
+    <section id="Introdução">
+        <ul style="text-align: center;">
+            <li style="display: inline-block;">
+                <ul class="centered">
+                    <li class="title">
+                        Introdução
+                    </li>
+                    <li class="subtitle">
+                        O código swift é executado inicialmente no escopo global, sem necessidade de uma função main,
+                        podemos criar variáveis com “var”, o nome da variável e o valor, ou especificando seu tipo se
+                        não souber o valor, e podemos criar constantes usando “let”, o nome da variável e o tipo ou valor. <br>
+                        Podemos também criar optionals com um ponto de interrogação após o tipo. Funções são definidas com
+                        “func”, e são tratadas como objetos de primeira classe que podem ser passadas como argumentos,
+                        usadas como valores de retorno, e aninhadas para closures.
+                    </li>
+                    <li style="display: inline-block;">
+                <img class="centered" style="height:400px" src="/images/body/xcode.svg" alt="">
+            </li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+    <!-- E Third -->
+    <!-- S Fourth -->
+    <section>
+        <ul style="text-align: center;">
+            <li style="display: inline-block;">
+                <ul class="centered">
+                    <li class="title">
+                        Onde Aprender
+                    </li>
+                    <li class="subtitle">
+                        Swift é uma das linguagens de programação com crescimento mais rápido da história. Hoje em dia,
+                        existem inúmeros tutoriais na internet de qualidade e gratuitos que permitem dar uma boa base para
+                        iniciar o aprendizado. <br>
+                        Além disso, a Apple disponibiliza diversos materiais de aprendizado, como cursos, documentações e
+                        vídeos, como a série de livros Develop In Swift que cobre assuntos introudutórios de programação,
+                        fundamentos da linguagem e outros assuntos relevantes no desenvolvimento iOS de forma prática, e
+                        tutoriais interativos online que podem ser acessados no site Apple Developer.
+                    </li>
+                    <li style="display: inline-block; height: 400px"><img class="centered" style="height:400px" src="/images/body/learn.svg" alt=""></li>
+
+                </ul>
+
+            </li>
+        </ul>
+    </section>
+    <!-- E Fourth -->
+    <!-- S Footer -->
+    <footer>
+        <ul style="text-align: center;">
+            <li style="display: inline-block;">
+                <ul class="centeredfooter">
+                    <li class="title">
+                        Designed by João Santos
+                    </li>
+                    <li class="subtitle">
+                        https://github.com/joaosjoaosjoaos
+                    </li>
+                    <li>
+                        <br>
+                    </li>
+                    <li style="font-size: 15px; text-align: center; color: #979797">
+                        <b>Disclaimer: This project isn't by any means connected to Apple Inc. or any of its subsidiaries,
+                        and it was built as personal project for learning purposes.</b>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </footer>
+    <!-- E Footer -->
+
+    <script src="/main.js"></script>
 
 </body>
 </html>

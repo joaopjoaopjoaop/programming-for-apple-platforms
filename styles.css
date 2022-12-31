@@ -1,7 +1,10 @@
 /* Font */
-
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700;900&family=Roboto:wght@400;900&display=swap');
 /* Files */
 @import "/css/header.css";
+@import "/css/sections.css";
+@import "/css/text.css";
+@import "/css/footer.css";
 
 /* Defaults */
 *
@@ -9,17 +12,20 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    list-style: none;
+    text-decoration: none;
 }
 
 body
 {
-    // font-family: '?', sans-serif;
-    // font-weight: 0;
-    // background-color: ;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    background-color: #222222;
 }
 
 ul
 {
     list-style: none;
+    text-decoration: none;
     text-align: left;
 }
